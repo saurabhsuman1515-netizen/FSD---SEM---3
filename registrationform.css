@@ -1,0 +1,84 @@
+title{
+    color: #0a3ab3;
+    font-size: 28px;
+    margin-bottom: 25px;   
+}
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #f2f6fc;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #384055;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+form {
+    width: 650px;
+    margin: auto;
+    background-color: rgb(104, 200, 226);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+td:first-child {
+    width: 40%;
+    background-color: #eaf1ff;
+    font-weight: bold;
+    color: #333;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"] {
+    width: 95%;
+    padding: 9px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+}
+input[type="checkbox"] {
+    margin-left: 8px;
+    transform: scale(1.2);
+}
+input[type="file"] {
+    padding: 5px;
+}
+
+tr:hover {
+    background-color: #f8fafc;
+}
+@media (max-width: 700px) {
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    body {
+        padding: 15px;
+    }
+
+    td {
+        padding: 8px;
+    }
+}
